@@ -584,7 +584,7 @@ while running:
                                 rookID[side] = rookIndexB[1]
                         except IndexError:
                             pass
-                # fixes a bug where you can play your own move twice by unding multiple times
+                # fixes a bug where you can play your own move twice by unding multiple times works now yipee
                 if legalMoves[ind] != origin:
                     postions.append(encode(grid, rects, typeL, move, ensq, castlelis, halfm, movnum))
                 legalMoves = []
