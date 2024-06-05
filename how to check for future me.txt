@@ -1,0 +1,27 @@
+- look if the current colour King is in check
+  - To do this find all the checking squares the other colour occupies
+  - See if the origin of the king is in one of those squares then apply the check thing
+  - restrict the king moves bacilly say there is a same colour pice there so king cant go there so casling dosen't happen through check
+
+- blocking check
+- if king in check find a move that intersects with the check squares
+  - See if there is a peice there dose it block check
+  - if yes add it to the only move they can do
+  - if not make the current square the only move
+
+- Make that the only move that they can do
+ - do this for all the pecies
+- After move is done clear the legal move list
+
+- Taking to remove check
+- Tag what peice is checking the king
+ - shoot out a queen move style beams and knight
+ - if the line is intersected by a black peice see what peicce that is
+ - add that peice to the checking list
+ - If there is more than one peice checking the king
+ - Taking for check will never happen
+ - if there is 1 peice checking
+   - see if one of the peices can take it and if it can add it to the list of legal moves
+
+- Check Mate
+  - if there is no moves except for the origin that the curret colour can do then it is the end of the game and check mate
