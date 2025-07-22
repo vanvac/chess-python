@@ -1,8 +1,9 @@
 import pygame
-from pygame import image, display, MOUSEMOTION, MOUSEBUTTONDOWN, MOUSEBUTTONUP, QUIT
+from pygame import MOUSEBUTTONDOWN, MOUSEBUTTONUP, MOUSEMOTION, QUIT, display, image
 
 import logic
 
+print("archived code this is really bad")
 
 def setPeice(dict, pice, pos, imgl, rects, typeL):
     dumRect = dict[pice].get_rect()
